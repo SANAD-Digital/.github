@@ -10,4 +10,4 @@ Our repositories will contain applications, tools, and extensions for the Frappe
 
 We welcome contributions through issues and pull requests.
 
-See our repository-specific contribution guidelines for development instructions.
+Please check the contribution guidelines in each repository before contributing.

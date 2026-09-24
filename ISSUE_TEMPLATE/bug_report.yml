@@ -1,0 +1,64 @@
+name: Bug Report
+description: Report a reproducible problem
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please search existing issues before submitting a new report.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the problem clearly.
+    validations:
+      required: true
+
+  - type: input
+    id: frappe-version
+    attributes:
+      label: Frappe version
+      placeholder: "16.x.x"
+
+  - type: input
+    id: erpnext-version
+    attributes:
+      label: ERPNext version
+      placeholder: "16.x.x"
+
+  - type: input
+    id: app-version
+    attributes:
+      label: Application version
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Provide the smallest reproducible sequence.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: traceback
+    attributes:
+      label: Error / traceback
+      description: Remove secrets and sensitive information before posting.
+      render: text
